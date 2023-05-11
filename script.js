@@ -1,6 +1,2 @@
-
-const number = parseInt(prompt('Enter a decimal number: '));
-// convert to binary
-const result = number.toString(2);
-
-console.log( result);
+let decimal = prompt('please insert decimal number');
+console.log(Number(decimal).toString(2));
