@@ -19,8 +19,4 @@ function decimalToBinary(decimal) {
   return binary;
 }
 
-// Take input from the user
-const userInput = parseInt(prompt('Enter a decimal number:'));
-const binaryNumber = decimalToBinary(userInput);
-
 console.log(`Binary representation: ${binaryNumber}`);
